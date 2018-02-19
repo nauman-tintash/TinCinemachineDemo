@@ -13,7 +13,17 @@ This project demos the implementation of a basic follow and look at target camer
 - If you want to try the feature on some standard assets, then import the vehicle package.
 - But preferably, you should have your own project in which you want to use the Cinemachine. In that case, skip this step.
 
+### Setup the test scene
+- Add any character you want the Cinemachine cameras to follow or look at.
+If using the vehicles from Standard Asset:
+- Add a plane to the scene, scale it up and set some random material to it.
+- Add the car prefab to the scene and try it out.
 
+### Add the Cinemachine Virtual Camera
+- Simply go to the Cinemachine tab in the menu and add virtual camera. This will add a Cinemachine brain to your camera and create a virtual camera object in the scne.
+- Add your object to the follow and look at transforms attributes and set the offset values to your liking.
+- Adjust all the values you need to set the proper setting for the camera.
+- Remember to increase the Yaw damping to some value and notice the affect.
 
 ## Useful Resources
 
